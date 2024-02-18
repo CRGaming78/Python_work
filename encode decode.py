@@ -1,0 +1,5 @@
+letter=input("Enter a word:")
+en_letter=letter.encode()
+print("Encode data:",en_letter)
+de_letter=en_letter.decode()
+print("Decoded data:",de_letter)
