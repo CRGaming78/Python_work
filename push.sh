@@ -14,6 +14,17 @@ elif [[ $des == "0-9" ]]; then
 else #bass abhi ke liye use kar raha hu 
     echo "invaild input"
 fi
-read -p "Enter any msg: " msg
+read -p "Do you want any program to unstage?(y/n):" cho
+if [[ $cho == "y" || $cho == "Y"]]; then
+    while True; do
+        read -p "Enter the name of the program: " de_pro
+        git reset $de_pro
+        read -p "Do you want remove more?(y/n)" in_cho
+        if [[ $cho == "n" || $cho == "N"]]; then
+            break
+        fi
+    done
+fi
+read -p "Enter msg to commit: " msg
 git commit -m "$msg"
 git push
