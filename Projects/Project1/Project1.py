@@ -77,7 +77,7 @@ class Student():
 
 if __name__=="__main__":
     Delhilibrary = Library(["Book of disquiet", "Psychology of money", "48 laws of power", "indian", "Baghatgita", "General relativity"])
-    login_de=open(r"D:\Login_details.csv","r+") #login details
+    login_de=open("Login_details.csv","r+") #login details
     student=Student()
     track=[]
     print("\t♦♦♦♦♦♦♦ WELCOME TO THE <name> LIBRARY ♦♦♦♦♦♦♦\n")
