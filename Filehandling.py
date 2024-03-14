@@ -29,7 +29,8 @@ while(True):
         print("2. Write into file")
         print("3. Rename the file")
         print("4. Delete the file")
-        print("5. exit")
+        print("5. Size of the file")
+        print("6. exit")
         c=int(input("Enter the number from the menu: "))
         if c==1:
             read(f,file_name)
@@ -50,6 +51,9 @@ while(True):
             else:
                 exit(0)
         elif c==5:
+            size=os.path.getsize(file_name)
+            print(f"Size of {file_name} is {size}")
+        elif c==6:
             print("Exiting...")
             exit(0)
         else:
