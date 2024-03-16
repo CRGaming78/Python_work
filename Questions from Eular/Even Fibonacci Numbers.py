@@ -10,6 +10,7 @@ for i in range(0,100):
 		even_sum1+=fibonacci1
 print ("Sum of Even Fibonacci Numbers \nWhich are less than 100 is",even_sum1)
 
+#**** Warning your pc may crash ****
 first_num2=0
 second_num2=1
 fibonacci2=0
