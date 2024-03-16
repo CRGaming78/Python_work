@@ -1,4 +1,5 @@
-#We have used euclid Algorithm to find the lcm also called smallest multiple
+
+#? I have used euclid Algorithm to find the lcm also called smallest multiple
 #* This method much more efficient
 def gcd(n1,n2):
 	remainder=1
@@ -8,7 +9,6 @@ def gcd(n1,n2):
 		n2=remainder
 	return n1
 
-#? lcm of two numbers using euclid Algorithm
 #* lcm=(number1*number2)/GCD(number1,number2)
 def lcm(n1,n2):
 	return (n1*n2)/gcd(n1,n2)
