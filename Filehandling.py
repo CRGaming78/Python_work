@@ -24,7 +24,6 @@ while(True):
     content=f.read()
     try:
         print("\n\n------ File MENU ------\n")
-        #print("1. Create a new file")
         print("1. Print the data")
         print("2. Write into file")
         print("3. Rename the file")
